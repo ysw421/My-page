@@ -1,0 +1,67 @@
+.main-text-bg {
+  margin-top: 70px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 50px;
+  position: relative;
+}
+
+.main-text {
+  position: relative;
+  top: 45vh;
+  font-size: 4.7rem;
+  letter-spacing: 8px;
+  color: #feffa6;
+  z-index: 2;
+}
+
+.main-text2 {
+  position: relative;
+  top: 40vh;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #def1db;
+  z-index: 2;
+}
+
+@keyframes bg-circle-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bg-circle {
+  position: relative;
+  width: 80vw;
+  height: 100vw;
+  left: 12%;
+  top: -80vw;
+  opacity: 0.5;
+  animation: bg-circle-animation 3s 2s ease infinite;
+  z-index: -1;
+}
+
+.btn {
+  position: relative;
+  top: 40vh;
+  width: 8vw;
+  height: 3vw;
+  border-radius: 5%;
+  background-color: #feffa6;
+  color: #252526;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

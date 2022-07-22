@@ -1,0 +1,19 @@
+@keyframes example1 {
+  0% {
+    stroke-width: 30px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-width: 5px;
+  }
+}
+
+.animation-font {
+  position: relative;
+  top: -20vh;
+  left: 23vw;
+  font-size: 4.5em;
+  letter-spacing: 8px;
+  color: #a3acff;
+  z-index: 1;
+}
