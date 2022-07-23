@@ -1,5 +1,6 @@
 .title-bar {
   top: 0px;
+  height: 70px;
   background-color: #252526;
   position: fixed;
   display: flex;

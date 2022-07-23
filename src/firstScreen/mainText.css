@@ -3,13 +3,14 @@
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
-  height: 50px;
+  height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .main-text {
-  position: relative;
-  top: 45vh;
+  position: absolute;
+  top: 3px;
   font-size: 4.7rem;
   letter-spacing: 8px;
   color: #feffa6;
@@ -18,8 +19,8 @@
 
 .main-text2 {
   position: relative;
-  top: 40vh;
-  font-size: 2rem;
+  top: 16vh;
+  font-size: 1.7rem;
   letter-spacing: 1px;
   color: #def1db;
   z-index: 2;
@@ -30,7 +31,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
   100% {
     transform: scale(1);
@@ -38,24 +39,24 @@
 }
 
 .bg-circle {
-  position: relative;
+  position: absolute;
   width: 80vw;
   height: 100vw;
-  left: 12%;
-  top: -80vw;
-  opacity: 0.5;
+  left: 15%;
+  /* left: 12%; */
+  top: -30vw;
+  opacity: 0.8;
   animation: bg-circle-animation 3s 2s ease infinite;
   z-index: -1;
 }
 
 .btn {
   position: relative;
-  top: 40vh;
-  width: 8vw;
-  height: 3vw;
-  border-radius: 5%;
+  top: 15vh;
+  width: 110px;
+  height: 40px;
+  border-radius: 8px;
   background-color: #feffa6;
-  color: #252526;
   font-size: 1.5rem;
   letter-spacing: 1px;
   cursor: pointer;
@@ -64,4 +65,12 @@
 
 .btn:hover {
   transform: scale(1.05);
+}
+
+.text-div {
+  position: absolute;
+  top: 49vh;
+  width: 55vw;
+  height: 50px;
+  z-index: 2;
 }

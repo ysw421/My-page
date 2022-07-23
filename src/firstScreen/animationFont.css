@@ -9,8 +9,9 @@
 }
 
 .animation-font {
-  position: relative;
-  top: -20vh;
+  position: absolute;
+  /* top: -25vh; */
+  top: 10vh;
   left: 23vw;
   font-size: 4.5em;
   letter-spacing: 8px;
